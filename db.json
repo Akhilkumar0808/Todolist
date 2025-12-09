@@ -1,0 +1,189 @@
+{
+  "users": [
+    {
+      "id": "7ac2",
+      "username": "Akhil",
+      "email": "akhil@email",
+      "password": "123465"
+    },
+    {
+      "id": "ccc6",
+      "username": "Ajay",
+      "email": "ajay@gmail",
+      "password": "132426"
+    },
+    {
+      "id": "c537",
+      "username": "Ajay",
+      "email": "ajay@gmail",
+      "password": "132426"
+    },
+    {
+      "id": "6b87",
+      "username": "Ajay",
+      "email": "ajay@gmail",
+      "password": "132426"
+    },
+    {
+      "id": "2ffe",
+      "username": "Ajay",
+      "email": "ajay@gmail",
+      "password": "132426"
+    },
+    {
+      "id": "a0bc",
+      "username": "Ajay",
+      "email": "ajay@gmail",
+      "password": "132426"
+    },
+    {
+      "id": "8d7f",
+      "username": "Ajay",
+      "email": "ajay@gmail",
+      "password": "132426"
+    },
+    {
+      "id": "8fa3",
+      "username": "Ajay",
+      "email": "ajay@gmail",
+      "password": "132426"
+    },
+    {
+      "id": "e093",
+      "username": "Ajay",
+      "email": "ajay@gmail",
+      "password": "132426"
+    },
+    {
+      "id": "f2cc",
+      "username": "Ajay",
+      "email": "ajay@gmail",
+      "password": "132426"
+    },
+    {
+      "id": "59a1",
+      "username": "Ajay",
+      "email": "ajay@gmail",
+      "password": "132426"
+    },
+    {
+      "id": "29dd",
+      "username": "Ajay",
+      "email": "ajay@gmail",
+      "password": "132426"
+    },
+    {
+      "id": "1f19",
+      "username": "ajay",
+      "email": "ajay@gmail",
+      "password": "5372728"
+    },
+    {
+      "id": "3ef7",
+      "username": "john",
+      "email": "john@gmail",
+      "password": "1234"
+    },
+    {
+      "id": "0280",
+      "username": "john",
+      "email": "john@gmail",
+      "password": "1234"
+    },
+    {
+      "id": "90d5",
+      "username": "john",
+      "email": "john@gmail",
+      "password": "1234"
+    },
+    {
+      "id": "79a7",
+      "username": "john",
+      "email": "john@gmail",
+      "password": "1234"
+    },
+    {
+      "id": "bcf9",
+      "username": "john",
+      "email": "john@gmail",
+      "password": "1234"
+    },
+    {
+      "id": "3bcb",
+      "username": "john",
+      "email": "john@gmail",
+      "password": "1234"
+    },
+    {
+      "id": "a09f",
+      "username": "john",
+      "email": "john@gmail",
+      "password": "1234"
+    },
+    {
+      "id": "38f5",
+      "username": "john",
+      "email": "john@gmail",
+      "password": "1234"
+    },
+    {
+      "id": "6b51",
+      "username": "john",
+      "email": "john@gmail",
+      "password": "1234"
+    },
+    {
+      "id": "5441",
+      "username": "john",
+      "email": "john@gmail",
+      "password": "1234"
+    },
+    {
+      "id": "9302",
+      "username": "john",
+      "email": "john@gmail",
+      "password": "1234"
+    },
+    {
+      "id": "7ac9",
+      "username": "john",
+      "email": "john@gmail",
+      "password": "1234"
+    },
+    {
+      "id": "5dbe",
+      "username": "John",
+      "email": "john@gmail",
+      "password": "1234"
+    },
+    {
+      "id": "58ac",
+      "username": "john",
+      "email": "john@gmail",
+      "password": "1234"
+    },
+    {
+      "id": "92d6",
+      "username": "Ajay",
+      "email": "ajay@gmail",
+      "password": "132426"
+    }
+  ],
+  "todos": [
+    {
+      "id": "1e12"
+    },
+    {
+      "id": "64e8",
+      "todo": "addTodo",
+      "created_at": "11:42:01 AM",
+      "user_id": "a385"
+    },
+    {
+      "id": "8afa",
+      "todo": "learn python",
+      "created_at": "12:46:30 PM",
+      "user_id": "7ac2"
+    }
+  ]
+}
