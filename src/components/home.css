@@ -1,0 +1,38 @@
+.home-container {
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.todo-item {
+  background: white;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-item h1 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.todo-buttons button {
+  margin-left: 10px;
+  padding: 8px 12px;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+}
+
+.todo-buttons .delete-btn {
+  background: #ff5252;
+  color: white;
+}
+
+.todo-buttons .update-btn {
+  background: #4caf50;
+  color: white;
+}

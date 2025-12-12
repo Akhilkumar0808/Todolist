@@ -1,0 +1,33 @@
+.reg-container {
+  max-width: 350px;
+  margin: 100px auto;
+  padding: 25px;
+  border-radius: 10px;
+  background: #cde5eb;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.reg-container label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.reg-container input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+}
+
+.reg-container button {
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px;
+  background-color: #0dcce6;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}

@@ -167,23 +167,141 @@
       "username": "Ajay",
       "email": "ajay@gmail",
       "password": "132426"
+    },
+    {
+      "id": "1b7a",
+      "username": "ramu",
+      "email": "ramu@gmail",
+      "password": "ramu123"
+    },
+    {
+      "id": "680e",
+      "username": "js",
+      "email": "ja@gmail",
+      "password": "js123"
+    },
+    {
+      "id": "f8c9",
+      "username": "kali",
+      "email": "kali@gmail",
+      "password": "kali123"
+    },
+    {
+      "id": "a3e0",
+      "username": "janu",
+      "email": "janu@gmail",
+      "password": "janu123"
+    },
+    {
+      "id": "2f9f",
+      "username": "king",
+      "email": "king@gmail",
+      "password": "king123"
+    },
+    {
+      "id": "955a",
+      "username": "rambabu",
+      "email": "rambabu@gmail",
+      "password": "rambabu123"
+    },
+    {
+      "id": "bb51",
+      "username": "balu",
+      "email": "balu@gmail",
+      "password": "balu123"
     }
   ],
   "todos": [
     {
-      "id": "1e12"
-    },
-    {
       "id": "64e8",
       "todo": "addTodo",
       "created_at": "11:42:01 AM",
+      "is_completed": false,
       "user_id": "a385"
     },
     {
-      "id": "8afa",
-      "todo": "learn python",
-      "created_at": "12:46:30 PM",
+      "id": "9856",
+      "todo": "java",
+      "created_at": "3:14:21 PM",
+      "is_completed": false,
       "user_id": "7ac2"
+    },
+    {
+      "id": "613c",
+      "todo": "python",
+      "created_at": "3:14:31 PM",
+      "is_completed": false,
+      "user_id": "7ac2"
+    },
+    {
+      "id": "eeb5",
+      "todo": "java",
+      "created_at": "3:28:55 PM",
+      "is_completed": true,
+      "user_id": "1b7a"
+    },
+    {
+      "id": "9f72",
+      "todo": "java",
+      "created_at": "4:09:56 PM",
+      "is_completed": true,
+      "user_id": "1b7a"
+    },
+    {
+      "id": "d29d",
+      "todo": "learn spring",
+      "created_at": "6:35:09 PM",
+      "is_completed": true,
+      "user_id": "1b7a"
+    },
+    {
+      "id": "5cd8",
+      "todo": "learn spring",
+      "created_at": "6:35:13 PM",
+      "is_completed": true,
+      "user_id": "1b7a"
+    },
+    {
+      "id": "70c4",
+      "todo": "java",
+      "created_at": "8:09:23 PM",
+      "is_completed": false,
+      "user_id": "3ef7"
+    },
+    {
+      "id": "4a03",
+      "todo": "javaScript",
+      "created_at": "8:09:33 PM",
+      "is_completed": false,
+      "user_id": "3ef7"
+    },
+    {
+      "id": "8ebc",
+      "todo": "java",
+      "created_at": "10:53:30 AM",
+      "is_completed": false,
+      "user_id": "955a"
+    },
+    {
+      "id": "d91d",
+      "todo": "python",
+      "created_at": "10:53:38 AM",
+      "is_completed": false,
+      "user_id": "955a"
+    },
+    {
+      "id": "06d9",
+      "todo": "python",
+      "created_at": "12:14:23 PM",
+      "is_completed": false,
+      "user_id": "a3e0"
+    },
+    {
+      "id": "f8dd",
+      "todo": "java",
+      "created_at": "6:09:19 PM",
+      "is_completed": false,
+      "user_id": "a3e0"
     }
   ]
 }

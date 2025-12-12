@@ -1,10 +1,12 @@
 import React,{useState} from "react"
+import "./register.css"
+import { useNavigate } from "react-router-dom"
 
 function Register(){
     const[username,setUsername]= useState("")
     const[email,setEmail]=useState("")
     const[password,setPassword]=useState("")
-
+   const navigate= useNavigate()  
     const handleForm=(event)=>{
     event.preventDefault()
     const new_user={username,email,password}
@@ -20,8 +22,8 @@ function Register(){
                     },
                     body:JSON.stringify(new_user)
                 })
-                if(response.status==201){
-                    alert("Registration successfull ")
+                if(response.ok){
+                    navigate("/Login")
                 }
                 
              
@@ -38,7 +40,7 @@ function Register(){
 
     }
     return (
-    <form onSubmit={handleForm}>
+    <form className="reg-container" onSubmit={handleForm}>
     <label >Username:</label>
     <input
      type="text" 
