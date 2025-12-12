@@ -1,7 +1,10 @@
 import {useState} from "react"
+import "./login.css"
+import { Link, useNavigate } from "react-router-dom"
  function Login(){
      const[email,setEmail]=useState("")
         const[password,setPassword]=useState("")
+        const navigate = useNavigate()
         const handleForm=(event)=>{
             event.preventDefault()
             let fetchData = async ()=>{
@@ -13,7 +16,8 @@ try {
     }else{
         if(jsonRes[0].password==password){
             localStorage.setItem("user_details",JSON.stringify(jsonRes[0]))
-            alert("Login Succesfull")
+            navigate("/")
+    
         }else{
             alert("Invalid Credintials")
         }
@@ -31,7 +35,7 @@ try {
 
 
     return(
-        <form  onSubmit={handleForm}>
+        <form className="login-container" onSubmit={handleForm}>
     <label >Email:</label>
     <input 
     type="text"
@@ -44,6 +48,7 @@ try {
      placeholder="Enter your password.."
     onChange={(event)=>setPassword(event.target.value)} />
     <button type="submit">Login</button>
+    <Link to="/register">Create Account?</Link>
         </form>
 
     )

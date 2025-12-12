@@ -1,0 +1,34 @@
+/* Global Page Layout */
+.page {
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Backgrounds for each route */
+.home-bg {
+  background: #161616;
+}
+
+.login-bg {
+  background: #161718;
+}
+
+.register-bg {
+  background: #5dcf5d;
+}
+
+.completed-bg {
+  background: #f1f1f7;
+}
+
+.pending-bg {
+  background: #fff8e1;
+}
+
+/* Centered form pages */
+.center-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
