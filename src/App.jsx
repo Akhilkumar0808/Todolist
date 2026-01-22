@@ -1,7 +1,7 @@
 import Register from "./components/Register"
+import { BrowserRouter,Routes,Route,HashRouter } from "react-router-dom"
 import Login from "./components/Login"
 //import AddTodo from "./components/AddTodo"
-import { Routes,Route } from "react-router-dom"
 import Home from "./components/Home"
 import Completed from "./components/Completed"
 import Pending from "./components/Pending"
@@ -10,7 +10,8 @@ import "./App.css"
 function App(){
 
   return (
-    <Routes>
+    <HashRouter>
+      <Routes>
       <Route path="/" element={<div className="page home-bg">
         <ProtectedRoute><Home/></ProtectedRoute>
         </div>
@@ -44,8 +45,8 @@ function App(){
             </ProtectedRoute>
           </div>
         }/>
-      
-    </Routes>
+      </Routes>
+    </HashRouter>
   )
 }
 export default App
