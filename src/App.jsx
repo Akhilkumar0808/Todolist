@@ -15,11 +15,11 @@ function App(){
         <ProtectedRoute><Home/></ProtectedRoute>
         </div>
         }/>
-      <Route path="/" element={
+      {/* <Route path="/" element={
           <div className="page login-bg center-page">
             <Login />
           </div>
-        }/>
+        }/> */}
       <Route path="/login" element={
           <div className="page login-bg center-page">
             <Login />

@@ -209,6 +209,18 @@
       "username": "balu",
       "email": "balu@gmail",
       "password": "balu123"
+    },
+    {
+      "id": "260e",
+      "username": "jas",
+      "email": "jas@gmail",
+      "password": "jas123"
+    },
+    {
+      "id": "1fa2",
+      "username": "akhil",
+      "email": "akhil@gmail",
+      "password": "akhil123"
     }
   ],
   "todos": [
@@ -293,15 +305,29 @@
       "id": "06d9",
       "todo": "python",
       "created_at": "12:14:23 PM",
-      "is_completed": false,
+      "is_completed": true,
       "user_id": "a3e0"
     },
     {
       "id": "f8dd",
       "todo": "java",
       "created_at": "6:09:19 PM",
-      "is_completed": false,
+      "is_completed": true,
       "user_id": "a3e0"
+    },
+    {
+      "id": "a4fa",
+      "todo": "java",
+      "created_at": "1:08:40 PM",
+      "is_completed": true,
+      "user_id": "1fa2"
+    },
+    {
+      "id": "bb7a",
+      "todo": "Python",
+      "created_at": "1:08:54 PM",
+      "is_completed": false,
+      "user_id": "1fa2"
     }
   ]
 }

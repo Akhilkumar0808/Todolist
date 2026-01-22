@@ -1,0 +1,18 @@
+.pending-container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 10px;
+}
+
+.pending-item {
+  background: #fff3cd;
+  border-left: 6px solid orange;
+  margin-bottom: 12px;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.pending-item h1 {
+  margin: 0;
+  font-size: 22px;
+}

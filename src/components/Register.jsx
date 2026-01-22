@@ -1,6 +1,6 @@
 import React,{useState} from "react"
 import "./register.css"
-import { useNavigate } from "react-router-dom"
+import {Navigate, useNavigate } from "react-router-dom"
 
 function Register(){
     const[username,setUsername]= useState("")
@@ -23,7 +23,8 @@ function Register(){
                     body:JSON.stringify(new_user)
                 })
                 if(response.ok){
-                    navigate("/Login")
+                    console.log("Successfully registered");
+                    navigate("/login")
                 }
                 
              
